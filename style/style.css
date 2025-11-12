@@ -1,1 +1,10 @@
-
+h1 {
+  background-color: rgb(0, 255, 255);
+  font-family: "Playfair", serif;
+  font-weight: 48pz;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
