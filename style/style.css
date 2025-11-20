@@ -4,7 +4,6 @@
   --main-font-family: "Poppins", sans-serif;
   --secondary-color: rgb(236, 236, 240);
   --main-button-background-color: rgb(163, 14, 153);
-  --main-button-text-color: rgb(255, 255, 255);
 }
 
 body {
@@ -24,7 +23,7 @@ h2 {
 }
 a {
   background-color: var(--main-button-background-color) !important;
-  color: var(--main-button-text-color) !important;
+  color: var(--secondary-color) !important;
 }
 
 .homePage a {
@@ -50,5 +49,5 @@ a {
   border-radius: 100%;
   object-fit: cover;
   margin-bottom: 20px;
-  margin-top: 30px;
+  border: 4px solid var(--secondary-color);
 }
