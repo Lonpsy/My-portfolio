@@ -1,8 +1,14 @@
 :root {
-  --main-background-color: #bfb9cf;
+  --main-background-color: #1e1c24;
   --heading-font-family: "Playfair", serif;
   --main-font-family: "Poppins", sans-serif;
-  --secondary-color: rgb(116, 94, 242);
+  --secondary-color: rgb(236, 236, 240);
+  --main-button-background-color: rgb(163, 14, 153);
+  --main-button-text-color: rgb(255, 255, 255);
+}
+
+body {
+  color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -33,4 +39,8 @@ h2 {
   background-color: var(--main-background-color);
   text-align: center;
   padding: 160px 20px;
+}
+a {
+  background-color: var(--main-button-background-color) !important;
+  color: var(--main-button-text-color) !important;
 }
