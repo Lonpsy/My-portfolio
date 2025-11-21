@@ -1,5 +1,5 @@
 :root {
-  --main-background-color: #1e1c24;
+  --main-headerbackground-color: #1e1c24;
   --heading-font-family: "Playfair", serif;
   --main-font-family: "Poppins", sans-serif;
   --secondary-color: rgb(236, 236, 240);
@@ -7,39 +7,44 @@
 }
 
 body {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
-h1 {
+p {
+  font-family: var(--main-font-family);
+  font-weight: 16px;
+  font-style: normal;
+  line-height: 2;
+}
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 54px;
+  font-style: bold;
+}
+.homePage h1 {
+  color: var(--secondary-color);
   font-family: var(--heading-font-family);
   font-weight: 96px;
   font-style: bold;
   line-height: 2;
 }
-h2 {
+.homePage h2 {
+  color: var(--secondary-color);
   font-family: var(--main-font-family);
   font-weight: 36px;
   font-style: bold;
 }
-a {
-  background-color: var(--main-button-background-color) !important;
-  color: var(--secondary-color) !important;
-}
 
-.homePage a {
-  font-family: var(--main-font-family);
-  font-weight: 18px;
-  font-style: bold;
-  background-color: var(--secondary-color);
-}
 .homePage p {
+  color: var(--secondary-color);
   font-family: var(--main-font-family);
   font-weight: 24px;
   font-style: bold;
   margin: 10pz;
 }
+
 .homePage {
-  background-color: var(--main-background-color);
+  background-color: var(--main-headerbackground-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -50,4 +55,31 @@ a {
   object-fit: cover;
   margin-bottom: 20px;
   border: 4px solid var(--secondary-color);
+}
+.homePage a {
+  background-color: var(--main-button-background-color) !important;
+  color: var(--secondary-color) !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+  padding: 15px 30px !important;
+}
+.btn-outline-primary {
+  color: var(--main-button-background-color);
+  border: 1px solid;
+  border-color: var(--main-button-background-color);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 27px;
+  padding: 15px 15px;
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+.btn-outline-primary:hover {
+  background-color: var(--main-button-background-color);
+  color: var(--secondary-color);
+}
+.homepageText {
+  padding: 20px 60px;
 }
