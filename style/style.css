@@ -83,3 +83,12 @@ h2 {
 .homepageText {
   padding: 20px 60px;
 }
+@media (max-width: 600px) {
+  .homepageText {
+    padding: 0 20px;
+    text-align: center;
+  }
+  .homePage {
+    padding: 50px 20px;
+  }
+}
