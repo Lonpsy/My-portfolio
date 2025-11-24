@@ -96,15 +96,7 @@ h2 {
 .homepageText {
   padding: 20px 60px;
 }
-@media (max-width: 600px) {
-  .homepageText {
-    padding: 0 20px;
-    text-align: center;
-  }
-  .homePage {
-    padding: 50px 20px;
-  }
-}
+
 .aboutPage h1 {
   font-family: var(--heading-font-family);
   font-size: 42px;
@@ -116,4 +108,22 @@ h2 {
   font-size: 18px;
   font-weight: bold;
   line-height: 2;
+}
+@media (max-width: 900px) {
+  .homepageText {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .homePage {
+    padding: 50px 20px;
+  }
+
+  .aboutPage {
+    text-align: center;
+  }
+  .aboutPage img {
+    padding: 0 !important;
+    margin-top: 0 !important;
+  }
 }
