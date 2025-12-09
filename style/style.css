@@ -145,6 +145,11 @@ h2 {
   line-height: 2;
   text-align: center;
 }
+.contact-header {
+  font-family: var(--heading-font-family);
+  font-style: bold;
+  font-size: 64;
+}
 h4 {
   font-family: var(--main-font-family);
   font-size: 14px;
