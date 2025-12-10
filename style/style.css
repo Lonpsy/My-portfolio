@@ -47,7 +47,7 @@ h2 {
 .homePage {
   background-color: var(--main-headerbackground-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 50px 20px;
 }
 
 .myPicture {
@@ -116,18 +116,31 @@ h2 {
   .homepageText {
     padding: 0 20px;
     text-align: center;
+    margin: 0 auto;
   }
-
-  .homePage {
-    padding: 50px 20px;
-  }
-
   .main-container {
     text-align: center;
   }
   .main-container img {
     padding: 0 !important;
     margin-top: 0 !important;
+  }
+
+  .logo {
+    display: none;
+  }
+  a {
+    font-size: 18px;
+  }
+  .about-image {
+    width: 100% !important;
+    height: auto !important;
+    margin: 0 !important;
+  }
+  .projectsPageHeader {
+    font-size: 36px !important;
+    margin: 20px 0 !important;
+    min-width: auto !important;
   }
 }
 .projectsPageHeader h1 {
@@ -170,4 +183,24 @@ h4 {
   font-weight: bold;
   line-height: 2;
   text-align: center;
+}
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 20px 0;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: var(--main-button-background-color);
+  transition: 100ms smooth;
+}
+nav {
+  font-family: var(--main-font-family);
+  font-size: 16px;
+  font-weight: normal;
+  background-color: var(--secondary-color);
 }
