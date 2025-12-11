@@ -73,10 +73,12 @@ h2 {
   margin: 0 auto;
 }
 .btn-outline-primary:hover {
-  background-color: var(--main-button-background-color);
+  background-color: var(--main-button-background-color) !important;
   color: var(--secondary-color) !important;
   border-color: var(--main-button-background-color);
+  transition: all 100ms smooth;
 }
+
 .btn-primary {
   color: var(--secondary-color);
   border-color: var(--main-button-background-color);
@@ -85,16 +87,22 @@ h2 {
   background-color: var(--main-button-background-color);
 }
 .btn-primary:hover {
-  background-color: var(--secondary-color);
-  color: var(--main-button-background-color);
+  background-color: var(--secondary-color) !important;
+  color: var(--main-button-background-color) !important;
   border-color: var(--main-button-background-color);
+  transition: all 100ms smooth;
 }
+
 .homePage a {
   background-color: var(--main-button-background-color) !important;
   color: var(--secondary-color) !important;
   font-size: 18px !important;
   font-weight: normal !important;
   padding: 15px 30px !important;
+}
+.homePage a:hover {
+  background-color: var(--secondary-color) !important;
+  color: var(--main-button-background-color) !important;
 }
 .homepageText {
   padding: 20px 60px;
@@ -218,4 +226,8 @@ nav {
   padding: 10px;
   border-radius: 70%;
   margin: 0 20px;
+}
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid var(--main-button-background-color);
 }
